@@ -31,7 +31,7 @@ let currentSlide = 0;
 let pixels = 800;
 
 const PAGE_START = 0;
-const PAGE_END = 2;
+const PAGE_END = 3;
 
 function slideNext() {
   watchWidth();
