@@ -33,6 +33,7 @@ ol, ul{
 }
 
 h1{
+    display: inline-block;
     font-family: 'Gaegu', cursive;
     font-size: 48px !important;
     font-weight: bold !important;
@@ -44,6 +45,12 @@ a{
 }
 
 /* header */
+header > span{
+    font-family: 'Gaegu', cursive;
+    border-radius: 10px;
+    background: pink;
+}
+
 header{
     text-align: center;
 }
