@@ -75,6 +75,8 @@ main .notice{
 }
 
 article#question ul li div{
+    height: 100px;
+
     display: grid;
     grid-template-columns: 50px 1fr 1fr;
     align-items: center;
@@ -459,6 +461,8 @@ footer div.address{
     }
 
     article#question ul li div{
+        height: 160px;
+
         display: flex;
         flex-direction: column;
 
