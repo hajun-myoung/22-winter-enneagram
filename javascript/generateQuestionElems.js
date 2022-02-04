@@ -408,7 +408,7 @@ const QUESTIONS = [
 
 const CHOICE_COUNT = 5;
 const PROBLEMS_IN_A_PAGE = 25;
-const PROBLEMS_AMOUNT = 71;
+const PROBLEMS_AMOUNT = 81;
 const PAGE_COUNT = Math.ceil(PROBLEMS_AMOUNT / PROBLEMS_IN_A_PAGE);
 
 let choice = [
