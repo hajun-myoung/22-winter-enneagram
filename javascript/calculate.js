@@ -7,6 +7,9 @@ const type = [
   "question_d",
   "question_e",
   "question_f",
+  "question_g",
+  "question_h",
+  "question_i",
 ];
 
 let sum = [...Array(type.length).fill(0)];

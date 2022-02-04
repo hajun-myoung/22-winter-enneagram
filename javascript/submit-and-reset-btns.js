@@ -61,6 +61,21 @@ function createResult() {
       title: "F타입",
       description: "F타입 지능에 대한 설명입니다",
     },
+    {
+      id: "g",
+      title: "G타입",
+      description: "G타입 지능에 대한 설명입니다",
+    },
+    {
+      id: "h",
+      title: "H타입",
+      description: "H타입 지능에 대한 설명입니다",
+    },
+    {
+      id: "i",
+      title: "I타입",
+      description: "I타입 지능에 대한 설명입니다",
+    },
   ];
 
   // resultDiv will contain whole contents
