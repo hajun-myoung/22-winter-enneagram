@@ -39,6 +39,10 @@ h1{
     padding: 0 0 20px 0 ;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 /* header */
 header{
     text-align: center;
@@ -352,7 +356,7 @@ footer div.address{
     width: 100%;
 }
 
-.ads > div div.ad_title{
+.ads > div div.ad_title a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -365,7 +369,7 @@ footer div.address{
     text-align: center;   
 }
 
-.ads > div > div.ad_title > span.youtubeLogo{
+.ads > div > div.ad_title > a > span.youtubeLogo{
     padding: 1px;
     height: 100%;
 
@@ -373,7 +377,7 @@ footer div.address{
     align-items: center;
 }
 
-.ads > div > div.ad_title > span.youtubeLogo > img{
+.ads > div > div.ad_title > a > span.youtubeLogo > img{
     height: 100%;
 }
 
