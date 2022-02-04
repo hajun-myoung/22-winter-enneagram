@@ -1,0 +1,525 @@
+/* default */
+html{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body .container{
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+    max-width: none !important;
+
+    display: grid;
+    grid-template-columns: 1fr 800px 1fr;
+    align-items: center;
+}
+
+ol, ul{
+    list-style: none;
+    padding: 0 !important;
+}
+
+h1{
+    font-family: 'Gaegu', cursive;
+    font-size: 48px !important;
+    font-weight: bold !important;
+    padding: 0 0 20px 0 ;
+}
+
+/* header */
+header{
+    text-align: center;
+}
+
+header h1{
+    margin: 21px 0 0 0;
+}
+
+/* main */
+main{
+    /* padding: 10px; */
+    text-align: center;
+}
+
+main .notice{
+    width: 100%;
+    margin : 0 0 20px 0;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+    background: #FBB;
+    color: #F00;
+}
+
+#question{
+    margin: 20px 0;
+}
+
+article#question ul li div{
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr;
+    align-items: center;
+}
+
+article#question ul li div p{
+    margin: 0;
+}
+
+article#question > ul li div > p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+article#question > ul li div > p:nth-child(2) {
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px 0 20px 10px;
+    text-align: left;
+}
+
+article#question ul li div div{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px 0 0;
+}
+
+/* prev next arrow buttons */
+article > div.pageControl{
+    margin: 20px 0;
+}
+
+#controller{
+    width: 100%;
+}
+
+#controller > div.pageControl > span.pageArrow > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    background: #04AA6D;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+/* user info */
+#userInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#userInfo #userName{
+    text-align: left;
+}
+
+#userInfo #testingTime{
+    text-align: right;
+}
+
+/* progress bar */
+#progressBar{
+    width: 100%;
+    height: 20px;
+
+    display: flex;
+    /* justify-content: left; */
+}
+
+#progressBar .percentage{
+    width: 0px;
+    height: 100%;
+    
+    border-radius: 20px;
+    
+    background: linear-gradient(to right, blue, pink);
+    
+    font-size: 12px;
+    text-align: right;
+    color: #FFF;
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+    transition: width 0.1s linear;
+}
+
+/* below the questions, some buttons */
+
+body > main > article:nth-child(3){
+    margin: 20px 0 0 0;
+}
+
+article#question > div > div > label > p{
+    font-size: 16px;
+}
+
+article > div > button:hover{
+    animation: 0.3s linear infinite alternate rotating;
+}
+
+@keyframes rotating{
+    from { transform: rotate(-6deg); }
+    to { transform: rotate(6deg); }
+}
+
+/* footer */
+footer{
+    margin: 0 0 30px 0;
+    width: 800px;
+}
+
+.divider{
+    width: 100%;
+    height: 0px;
+    border: 1px solid grey;
+    margin: 10px 0;
+}
+
+footer .info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    padding: 0 15px;
+}
+
+footer div.copyright{
+    color: #999;
+    font-style: italic;
+
+    /* padding: 0 0 0 15px; */
+}
+
+footer div.address{
+    color: #999;
+    font-style: italic;
+    text-align: right;
+
+    /* padding: 0 15px 0 0; */
+}
+
+/* slider */
+#question {
+    width: 800px;
+    height: 400px;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#question > ul{
+    padding: 0;
+    margin: 0;
+
+    width: 4000px;
+    height: auto;
+
+    display: flex;
+}
+
+#question > ul > li{
+    width: 800px;
+}
+
+/* result page */
+#major {
+    font-size: 48px;
+    font-weight: bold;
+
+    margin: 20px 0;
+}
+
+#major > div.majorDescription{
+    font-size: 32px;
+}
+
+#major > div.majorGraph{
+    width: 800px;
+    height: 20px;
+    border-radius: 20px;
+
+    background: #DDD;
+
+    display: flex;
+}
+
+#major > div.majorGraph > span {
+    background: linear-gradient(to right, skyblue, pink);
+
+    border-radius: 20px;
+
+    width: 0px;
+    height: 100%;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    transition: width 0.1s linear;
+}
+
+#minor{
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+#minor > div.minorDescription{
+    font-size: 18px;
+}
+
+#minor > div.minorGraph{
+    width: 800px;
+    height: 10px;
+    border-radius: 20px;
+    
+    background: #DDD;
+    
+    display: flex;
+}
+
+#minor > div.minorGraph > span {
+    background: linear-gradient(to right, skyblue, pink);
+
+    border-radius: 20px;
+
+    width: 0px;
+    height: 100%;
+    font-size: 10px;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    transition: width 0.1s linear;
+}
+
+/* ad box */
+.ads{
+    padding: 30px;
+}
+
+.ads .ad{
+    background: #FFF;
+    border-radius: 15%;
+    box-shadow: 9.91px 9.91px 15px #C5CFE1, -9.91px -9.91px 15px #EDF7FF;
+
+    margin: 30px 0;
+    padding: 5px;
+}
+
+/* ad 1 */
+.ads > div:nth-child(1){
+    top : 10px;
+    left : 10px;
+    /* background: yellow; */ /* test color */
+}
+
+/* ad 2 */
+.ads > div:nth-child(2){
+    top : 245px;
+    left : 10px;
+    /* background: red; */ /* test color */
+}
+
+.ads .youtube{
+    width: 100%;
+}
+
+.ads .youtube div img{
+    width: 100%;
+}
+
+.ads > div div.ad_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 36px;
+    padding: 5px;
+
+    font-family: 'Gaegu', cursive;
+    font-size: 24px;
+    text-align: center;   
+}
+
+.ads > div > div.ad_title > span.youtubeLogo{
+    padding: 1px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.ads > div > div.ad_title > span.youtubeLogo > img{
+    height: 100%;
+}
+
+.ads > div > div.ad_description{
+    text-align: center;   
+}
+
+.ads > div > div.ad_description a{
+    text-decoration: none;
+    color: #000;
+
+    font-weight: 500;
+    font-family: 'Gaegu', cursive;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1220px){
+    .ads{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .ads .ad{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        width: 100%;
+    }
+
+    body main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body .container{
+        margin: 0;
+        padding: 0;
+    
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article.notice{
+        width: 100%;
+    }
+
+    #userInfo{
+        display: block;
+    }
+
+    #userInfo #userName{
+        display: block;
+        text-align: center;
+    }
+    
+    #userInfo #testingTime{
+        display: block;
+        text-align: center;
+    }
+
+    article#question{
+        width: 350px;
+    }
+
+    article#question ul{
+        width: 1750px;
+    }
+
+    article#question ul li{
+        width: 350px;
+    }
+
+    article#question ul li div{
+        display: flex;
+        flex-direction: column;
+
+        padding: 10px;
+    }
+
+    article#question > ul li div > p:nth-child(2){
+        margin: 0;
+        padding: 0;
+
+        text-align: center;
+    }
+
+    article#question ul li div div {
+        width: 100%;
+
+        padding: 0;
+
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #controller{
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    footer > div.info{
+        flex-direction: column;
+    }
+
+    footer > div.info > div.copyright{
+        padding: 0;
+        text-align: center;
+    }
+
+    footer > div.info > div.address{
+        padding: 0;
+        text-align: center;
+    }
+
+    #major{
+        font-size: 34px;
+    }
+
+    #major > div.majorGraph{
+        width: 100%;
+    }
+
+    #major > div.majorDescription {
+        font-size: 28px;
+    }
+
+    #minor{
+        font-size: 20px;
+    }
+
+    #minor > div.minorGraph{
+        width: 100%;
+    }
+
+    #ads{
+        display: none;
+    }
+}
