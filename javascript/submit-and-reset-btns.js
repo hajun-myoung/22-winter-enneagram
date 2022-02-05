@@ -33,48 +33,48 @@ function createResult() {
   const resultTypeInfo = [
     {
       id: "a",
-      title: "A타입",
-      description: "A타입 지능에 대한 설명입니다",
+      title: "개혁가",
+      description: "이성적이고 이상적인 유형으로, 원칙적이고 목표가 분명합니다. 스스로를 잘 통제하고 완벽주의자 경향이 있습니다.",
     },
     {
       id: "b",
-      title: "B타입",
-      description: "B타입 지능에 대한 설명입니다",
+      title: "조력자",
+      description: "사람들을 잘 돌보고, 원활하게 교류하는 유형으로, 관대하고 감정을 잘 표출합니다. 사람들을 즐겁게 해 주고, 소유욕이 강합니다.",
     },
     {
       id: "c",
-      title: "C타입",
-      description: "C타입 지능에 대한 설명입니다",
+      title: "성취가",
+      description: "성공 지향적이고 실용적인 유형으로, 적응을 잘 하고, 뛰어다니며, 자신의 이미지에 관심이 많습니다.",
     },
     {
       id: "d",
-      title: "D타입",
-      description: "D타입 지능에 대한 설명입니다",
+      title: "예술가",
+      description: "민감하고 내성적인 유형으로, 표현력이 있고 극적이며, 자신의 내면 세계에 빠져 있습니다.",
     },
     {
       id: "e",
-      title: "E타입",
-      description: "E타입 지능에 대한 설명입니다",
+      title: "통찰가",
+      description: "이성적이고 지혜로운 유형으로, 지각력이 있고 혼자 떨어져 지내기를 좋아합니다. 스스로의 마음을 잘 드러내지 않습니다.",
     },
     {
       id: "f",
-      title: "F타입",
-      description: "F타입 지능에 대한 설명입니다",
+      title: "충성가",
+      description: "충실하고 안전을 추구하는 유형으로, 책임감과 의심, 불안이 많습니다. 사람들에게 호감을 줍니다.",
     },
     {
       id: "g",
-      title: "G타입",
-      description: "G타입 지능에 대한 설명입니다",
+      title: "낙천가",
+      description: "늘 바쁘며 재미를 추구하는 유형으로, 즉흥적이고 변덕스러우며 욕심이 많습니다.",
     },
     {
       id: "h",
-      title: "H타입",
-      description: "H타입 지능에 대한 설명입니다",
+      title: "리더",
+      description: "힘이 있고, 남을 지배하는 유형으로, 자신감과 결단력을 가지고 있습니다. 사람들과 맞서기를 좋아합니다.",
     },
     {
       id: "i",
-      title: "I타입",
-      description: "I타입 지능에 대한 설명입니다",
+      title: "평화주의자",
+      description: "느긋하며 남들 앞에 나서지 않으려하는 유형으로, 수용적이고 남에게 위안을 줍니다. 잘 동의하고, 스스로에게 만족합니다.",
     },
   ];
 
