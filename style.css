@@ -20,7 +20,7 @@ body .container{
     padding: 0;
     
     width: 100%;
-    max-width: none !important;
+    max-width: 1600px !important;
 
     display: grid;
     grid-template-columns: 1fr 800px 1fr;
