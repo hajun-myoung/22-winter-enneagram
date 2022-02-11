@@ -170,6 +170,11 @@ function createResult() {
   }
 
   // 캔버스에 차트 드로잉
+  let graphData = Array(9); // 타입 종류만큼 빈 배열을 생성
+  resultData.map(data=>{
+    graphData[+data.type[0] - 1] = data.val;
+  })
+
   const myChart = new Chart(chartCanvas, {
     type: "radar",
     data: {
@@ -177,7 +182,7 @@ function createResult() {
       datasets: [
         {
           label: `${userName}님 검사결과`,
-          data: resultData.map((data) => data.val),
+          data: graphData,
           fill: true,
           backgroundColor: "rgba(255, 99, 132, 0.2)",
           borderColor: "rgb(255, 99, 132)",
