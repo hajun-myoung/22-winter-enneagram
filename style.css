@@ -300,16 +300,16 @@ footer div.address{
     transition: width 0.1s linear;
 }
 
-#minor{
+.minor{
     font-size: 24px;
     margin: 15px 0;
 }
 
-#minor > div.minorDescription{
+.minor > div.minorDescription{
     font-size: 18px;
 }
 
-#minor > div.minorGraph{
+.minor > div.minorGraph{
     width: 800px;
     height: 10px;
     border-radius: 20px;
@@ -319,7 +319,7 @@ footer div.address{
     display: flex;
 }
 
-#minor > div.minorGraph > span {
+.minor > div.minorGraph > span {
     background: linear-gradient(to right, skyblue, pink);
 
     border-radius: 20px;
@@ -549,11 +549,11 @@ footer div.address{
         font-size: 28px;
     }
 
-    #minor{
+    .minor{
         font-size: 20px;
     }
 
-    #minor > div.minorGraph{
+    .minor > div.minorGraph{
         width: 100%;
     }
 

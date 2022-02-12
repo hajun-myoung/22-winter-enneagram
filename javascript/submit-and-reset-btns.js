@@ -123,7 +123,7 @@ function createResult() {
   for (let idx = 0; idx < resultTypeInfo.length; idx++) {
     let newDiv = document.createElement("div");
     if (idx == 0) newDiv.id = `major`;
-    else newDiv.id = `minor`;
+    else newDiv.className = `minor`;
 
     let newText = document.createTextNode(
       idx == 0
