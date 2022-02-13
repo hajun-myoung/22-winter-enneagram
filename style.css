@@ -412,6 +412,7 @@ footer div.address{
 /* canvas for result */
 #chart_and_major{
     display: flex;
+    margin: 30px 0;
 }
 
 #chartDiv{

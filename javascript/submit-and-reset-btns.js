@@ -90,10 +90,7 @@ function createResult() {
   let chartCanvas = document.createElement("canvas");
   chartCanvas.id = "myChart";
   // debugger;
-  chartCanvas.setAttribute("width", "400");
-  chartCanvas.setAttribute("height", "400");
   chartDiv.appendChild(chartCanvas);
-
   chart_and_major.appendChild(chartDiv);
 
 
